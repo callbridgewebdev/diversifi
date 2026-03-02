@@ -1,0 +1,4 @@
+title,content,category,author,is_published
+"Institutional Yield Hub v4.0 Online","The DiversiFi terminal has successfully migrated to the v4.0 Neural Core. This update introduces granular manual sync controls for plan deployments and real-time temporal countdowns for retail users.","System Update","DiversiFi Core",true
+"Temporal Node Handshake Protocol","Our new 24-hour yield cycle logic is now visible across all active strategy clusters. Users can monitor the remaining time until the next institutional sync at 00:00 UTC directly within their node details.","Market Insight","Tactical Analysis Unit",true
+"Recursive Network Optimization","The affiliate genealogy nodes have been optimized for zero-latency commission distribution. Regional node stability remains at 99.99% across 12 global clusters.","Platform News","Global Infrastructure",true

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- Favicon using the DFI Logo -->
+    <link rel="icon" type="image/png" href="https://hghitwukaxnptskfshsf.supabase.co/storage/v1/object/public/app-assets/dfi-logo.png" />
+    <link rel="apple-touch-icon" href="https://hghitwukaxnptskfshsf.supabase.co/storage/v1/object/public/app-assets/dfi-logo.png" />
+    
+    <!-- Primary Meta Tags -->
+    <title>DiversiFi | AI Forex Broker & Crypto Trading Platform | Portfolio & Asset Management</title>
+    <meta name="title" content="DiversiFi | AI Forex Broker & Crypto Trading Platform | Portfolio & Asset Management">
+    <meta name="description" content="DiversiFi is an AI-powered multi-asset trading terminal providing AI neural strategies, forex broker services, crypto management, portfolio & asset management, and high-payout trading — all with zero latency.">
+    <meta name="keywords" content="Forex Broker, Forex Trading, Forex Management, Crypto Trading, Crypto Management, AI Trading Platform, Asset Management, Portfolio Management, Binary Options Trading, Neural Trading Strategies">
+    <meta name="author" content="DiversiFi">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DiversiFi – AI Forex & Crypto Trading & Asset Management Platform">
+    <meta name="twitter:description" content="Deploy AI neural strategies. Trade Forex, Crypto & Binary Options. Advanced portfolio & asset management in one terminal.">
+    <meta name="twitter:image" content="https://hghitwukaxnptskfshsf.supabase.co/storage/v1/object/public/app-assets/dfi-logo.png">
+    <meta name="twitter:site" content="@DiversiFiAI">
+
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DiversiFi | AI Forex Broker & Crypto Management Platform">
+    <meta property="og:description" content="The ultimate AI-powered multi-asset terminal for Forex, Crypto, Portfolio & Asset Management. Zero latency. Neural strategies. High payout trading.">
+    <meta property="og:url" content="https://diversifi.cc/">
+    <meta property="og:image" content="https://hghitwukaxnptskfshsf.supabase.co/storage/v1/object/public/app-assets/dfi-logo.png">
+    <meta property="og:site_name" content="DiversiFi">
+
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"FinancialService",
+      "name":"DiversiFi",
+      "url":"https://diversifi.cc/",
+      "description":"AI-powered multi-asset trading and management terminal offering forex broker services, crypto trading & portfolio management.",
+      "areaServed":"Global",
+      "serviceType":[
+        "Forex Trading",
+        "Crypto Trading",
+        "Portfolio Management",
+        "Asset Management",
+        "Binary Options Trading"
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
